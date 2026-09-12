@@ -94,7 +94,7 @@ fetch_leads.py     alternate API/encrypted-file ingestion prototype
 - There are no automated tests or CI checks.
 - `server-etl/server.py` is an opaque legacy artifact and is not used by the Compose service.
 
-## Refinement path
+## Refinement
 
 Before presenting this as an end-to-end analytics system, I would:
 
@@ -106,7 +106,3 @@ Before presenting this as an end-to-end analytics system, I would:
 6. Pin dependencies and add CI.
 7. Remove or replace the opaque legacy artifact.
 8. Move local database credentials into environment configuration.
-
-## Portfolio position
-
-This repository demonstrates relational modelling, container orchestration, and dashboard prototyping. It remains supporting evidence until the ingestion path and reliability gaps above are fixed.
